@@ -7,10 +7,10 @@ const getTotalIsles = function (grid) {
       return;
     }
     visited[i][j] = true;
-    dfs(i - 1, j); // up
-    dfs(i + 1, j); // down
-    dfs(i, j - 1); // left
-    dfs(i, j + 1); // right
+    dfs(i - 1, j); 
+    dfs(i + 1, j); 
+    dfs(i, j - 1); 
+    dfs(i, j + 1); 
   };
 
   for (let i = 0; i < grid.length; i++) {
